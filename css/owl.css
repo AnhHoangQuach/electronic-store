@@ -1,0 +1,21 @@
+.owl-theme .owl-nav [class*=owl-] {
+    background: transparent;
+}
+
+.owl-theme .owl-nav {
+    bottom: 140px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #e09422;
+    width: 30px;
+    transition: all 0.5s;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #e09422;
+}
+
+.owl-stage{
+	height: 540px;
+}
