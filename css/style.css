@@ -562,3 +562,80 @@ product
 .products-tabs{
 	overflow-x: hidden;
 }
+
+/*=========================================================
+Hot-deal
+===========================================================*/
+
+#hot-deal{
+	padding: 60px 0px;
+	margin: 30px 0px;
+	background-color: #E4E7ED;
+	background-image: url('../images/hotdeal.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.hot-deal{
+	text-align: center;
+	margin-left: 35px;
+}
+
+.hot-deal .hot-deal-countdown>li{
+	position: relative;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: #D10024;
+	text-align: center;
+	border-radius: 50%;
+	margin: 0px 5px;
+}
+
+.hot-deal .hot-deal-countdown>li>div{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.hot-deal .hot-deal-countdown>li>div h3{
+	color: #FFF;
+	margin-bottom: 0px;
+}
+
+.hot-deal .hot-deal-countdown>li>div span{
+	display: block;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #FFF;
+}
+
+.hot-deal p{
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+.hot-deal .cta-btn{
+	margin-top: 15px;
+}
+
+.primary-btn{
+	display: inline-block;
+	padding: 12px 30px;
+	background-color: #D10024;
+	border-radius: 40px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	transition: 0.2s all;
+}
+
+.primary-btn:hover, .primary-btn:focus {
+  opacity: 0.9;
+  color: #FFF;
+  cursor: pointer;
+}
